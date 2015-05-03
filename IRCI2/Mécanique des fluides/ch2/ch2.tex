@@ -401,7 +401,7 @@ contraintes :
     Il s'agit d'une \textit{construction graphique} traduisant les lois de changement d'axes pour les 
     composantes du tenseur en un point. Il permet :
     \begin{itemize}
-    \item de trouver les composantes du tenseur des contraintes, pour 'importe quelle orientation de
+    \item de trouver les composantes du tenseur des contraintes, pour n'importe quelle orientation de
     normale (de facette)
     \item de trouver les valeurs des contraintes principales et les  directions correspondantes
     \item de trouver les valeurs des contraintes tangentielles extrémum et les directions 
@@ -421,20 +421,20 @@ contraintes :
     \left\{\begin{array}{ll}
     \sigma_u &=  \dfrac{\sigma_x+\sigma_y}{2} + \dfrac{\sigma_x-\sigma_y}{2}\cos 2\varphi + \tau_{xy}\sin
     2\varphi\\
-    \sigma_v &=  \dfrac{\sigma_x+\sigma_y}{2} + \dfrac{\sigma_x-\sigma_y}{2}\cos 2\varphi - \tau_{xy}\sin
+    \sigma_v &=  \dfrac{\sigma_x-\sigma_y}{2} + \dfrac{\sigma_x-\sigma_y}{2}\cos 2\varphi - \tau_{xy}\sin
     2\varphi\\
-    \tau_{uv} &= -\dfrac{\sigma_x-\sigma_y}{2}\cos 2\varphi - \tau_{xy}\cos 2\varphi
+    \tau_{uv} &= -\dfrac{\sigma_x-\sigma_y}{2}\sin 2\varphi - \tau_{xy}\cos 2\varphi
     \end{array}\right.
     \end{equation}
     En comparant ces relations avec celles d'une rotation d'un vecteur de longueur $L$ (voir schéma), on
-    trouve à toujours :
+    trouvera toujours :
     
     \prop{
     \begin{equation}
     \begin{array}{ll}
     \sigma_u &= \dfrac{\sigma_x+\sigma_y}{2} + \dfrac{\sigma_x-\sigma_y}{2}\cos 2\varphi + \tau_{xy}\sin
     2\varphi\\
-    \tau_{uv} &= -\dfrac{\sigma_x-\sigma_y}{2}\cos 2\varphi - \tau_{xy}\cos 2\varphi
+    \tau_{uv} &= -\dfrac{\sigma_x-\sigma_y}{2}\sin 2\varphi + \tau_{xy}\cos 2\varphi
     \end{array}
     \end{equation}
     
@@ -511,7 +511,7 @@ contraintes :
     \begin{array}{ll}
     \sigma_u &= \dfrac{\sigma_x+\sigma_y}{2} + \dfrac{\sigma_x-\sigma_y}{2}\cos 2\varphi + \tau_{xy}\sin
     2\varphi\\
-    \tau_{uv} &= -\dfrac{\sigma_x-\sigma_y}{2}\cos 2\varphi - \tau_{xy}\cos 2\varphi
+    \tau_{uv} &= -\dfrac{\sigma_x-\sigma_y}{2}\sin 2\varphi + \tau_{xy}\cos 2\varphi
     \end{array}
     \end{equation}       
     On trouve, après ré-écriture que 
